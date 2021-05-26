@@ -19,6 +19,7 @@ public class BaseTestCase {
 
 	public static WebDriver driver;
 
+	public void method () {}
 	//@BeforeMethod
 	public void preStep() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
