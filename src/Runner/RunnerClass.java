@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(cucumber.class)
 @CucumberOptions(features="src/Features/UITest.feature",
-glue= {"stepDefinition"}
+glue= {"stepDefinition"},dryRun = true
 		)
 
 
